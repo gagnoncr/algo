@@ -53,10 +53,4 @@ func main() {
 		item := heap.Pop(&priorityQueue).(*Item)
 		fmt.Printf("Name: %s Expiry: %d\n", item.Name, item.Expiry)
 	}
-	/* Will print the order:
-	   Name: Spinach Expiry: 5
-	   Name: Carrot Expiry: 30
-	   Name: Potato Expiry: 45
-	   Name: Rice Expiry: 100
-	*/
 }
